@@ -4476,5 +4476,14 @@ p.form-message.error {
 
 
 
+.logo {
+    height: 112px;
+    width: 150px;
+}
 
-
+@media only screen and (max-width: 600px) {
+    .logo {
+        height: 85px;
+        width: 110px;
+    }
+  }
