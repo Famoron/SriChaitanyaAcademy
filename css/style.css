@@ -4487,3 +4487,25 @@ p.form-message.error {
         width: 110px;
     }
   }
+
+.desk {
+    padding: 30px;
+}
+
+.desk-title h2{
+    color: #07294d;
+    position: relative;
+    padding-bottom: 12px;
+}
+.desk-title h2::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #ffc600;
+    bottom: 0;
+    left: 33.5%;
+}
+.desk .principalimg {
+    padding-top: 50px;
+}
