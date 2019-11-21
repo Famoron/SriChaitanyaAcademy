@@ -2042,14 +2042,14 @@ p {
 ======================================================*/
 
 .footer-top{
-    background-color: #07294d;
+    background-color: #f0f2f5;
 }
 
 .footer-about {
 	padding-right: 50px;
 }
 .footer-about p{
-    color: #fff;
+    color: rgb(49, 47, 47);
     padding-top: 15px;
 }
 .footer-about ul li{
@@ -2064,10 +2064,10 @@ p {
     width: 35px;
     line-height: 35px;
     font-size: 15px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 50%;
     text-align: center;
-    background-color: #021d3a;
+    background-color: #0b3561;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
     
@@ -2083,7 +2083,7 @@ p {
 
 .footer-title h6{
     font-size: 18px;
-    color: #fff;
+    color: rgb(49, 47, 47);
 }
 
 .footer-link{
@@ -2098,7 +2098,7 @@ p {
     line-height: 35px;
 }
 .footer-link ul li a{
-    color: #fff;
+    color: rgb(49, 47, 47);
     font-size: 15px;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
@@ -2140,14 +2140,14 @@ p {
     padding-left: 35px;
 }
 .footer-address ul li .cont p{
-    color: #fff;
+    color: rgb(49, 47, 47);
 }
 
 .footer-copyright{
     background-color: #021d3a;
 }
 .footer-copyright .copyright p{
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .footer-copyright .copyright p span{
     font-weight: 600;
