@@ -4519,3 +4519,8 @@ p.form-message.error {
     color: #07294d;
     font-size: 18px;
 }
+
+.img-fluid 
+    {
+        border: 10px solid #ffc600;
+}
