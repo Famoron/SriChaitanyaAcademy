@@ -4509,3 +4509,13 @@ p.form-message.error {
 .desk .principalimg {
     padding-top: 50px;
 }
+
+.mainquote {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #ffc600;
+    color: #07294d;
+    font-size: 18px;
+}
