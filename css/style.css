@@ -120,14 +120,6 @@ ul,ol {
     list-style-type: none;
 }
 
-p {
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 28px;
-	color: #505050;
-	margin: 0px;
-}
-
 .bg_cover{
     background-position: center center;
     background-size: cover;
@@ -4523,4 +4515,107 @@ p.form-message.error {
 .frame
     {
         border: 10px solid #ffc600;
+}
+
+/* Results and Rank*/
+
+#rank {
+    background-color: white;
+}
+
+
+
+.speaker-card {
+    border: none;
+    margin: 1rem 0;
+  }
+  
+  .speaker-card:hover .speaker-card-header {
+    background: #ffc600 !important;
+  }
+  
+  .speaker-card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .speaker-card-body {
+    background: #f0c735;
+  }
+  
+  .speaker-card-header {
+    color: rgb(65, 62, 62);
+    text-align: center;
+    padding: 1.2rem 0 0.8rem 0;
+  }
+  
+  .speaker-card-header:first-child {
+    border-radius: 0;
+  }
+  
+  .speaker-card-header h5 {
+    font-weight: 700;
+  }
+  
+  .speaker-card-header h5,
+  .speaker-card-header p {
+    font-size: 1rem;
+  }
+  
+  .speaker-card-header p {
+    margin-bottom: 0;
+  }
+  
+  .no-gutters [class*="col-"] {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  @media (max-width: 768px) {
+    .card .card-header {
+      cursor: pointer;
+    }
+  }
+  
+  .card-body {
+    background: #203260;
+  }
+  
+  .card-header {
+    background: #203260;
+    padding: 1.5rem 2rem;
+    height: 5rem;
+  }
+  
+  .card-header:hover {
+    background: #00a7d3;
+  }
+  
+  .card-header:first-child {
+    border-radius: 0;
+  }
+  
+  .panel-body {
+    background: #203260;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.8rem;
+    opacity: 0.5;
+  }
+
+  .speakers-box {
+    max-width: 400px;
+  }
+
+.desktext p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #9b8b8b;
+	margin: 0px;
 }
