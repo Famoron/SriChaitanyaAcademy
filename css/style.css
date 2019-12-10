@@ -4619,9 +4619,19 @@ p.form-message.error {
 	color: #9b8b8b;
 	margin: 0px;
 }
-.boardexamachievers {
+.achievers {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
+@media (max-width: 768px) {
+    .achievers {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+  }
