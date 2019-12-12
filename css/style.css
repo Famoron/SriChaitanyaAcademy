@@ -4635,3 +4635,16 @@ p.form-message.error {
     }
     
   }
+
+#facilities {
+    padding: 70px 40px;
+}
+.facilityimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.facilityimage {
+    padding: 20px 20px;
+}
