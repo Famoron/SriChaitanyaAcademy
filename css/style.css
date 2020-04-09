@@ -50,6 +50,9 @@
 ===========================*/
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -1372,7 +1375,7 @@ ol {
 
 #about-part {
   position: relative;
-  padding-bottom: 220px;
+  padding-bottom: 20px;
 }
 .about-bg {
   width: 52%;
@@ -4828,4 +4831,19 @@ p.form-message.error {
   border: 10px solid #847cfd;
   border-radius: 10px;
   box-shadow: 10px 10px 8px #d8d5ff;
+}
+
+.onlineregtext {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  color: #3b3a3a;
+  letter-spacing: 2px;
+}
+
+.onlineregtext1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #3b3a3a;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
